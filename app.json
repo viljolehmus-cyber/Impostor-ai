@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Imposter AI",
+    "slug": "imposter-ai",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "imposter",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ai.imposter.app"
+    },
+    "android": {
+      "package": "ai.imposter.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0B0B10"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    }
+  }
+}
